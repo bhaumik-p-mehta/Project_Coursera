@@ -1,0 +1,39 @@
+
+*{
+  box-sizing: border-box;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.content_box{
+  margin: 10px;
+  border: 3px solid black;
+  background: #9ea8a1;
+}
+
+.content_title{
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.content{
+  padding: 2%;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.fixed-top{
+  position: static;
+}
